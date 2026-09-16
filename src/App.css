@@ -1,0 +1,19 @@
+.slide1pic {
+  animation: slowBounce 4s  infinite;
+}
+
+@keyframes slowBounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-25px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
